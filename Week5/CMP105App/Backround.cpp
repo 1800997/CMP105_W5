@@ -8,7 +8,7 @@ Backround::Backround()
 	wow.addFrame(sf::IntRect(75, 0, 25, 25));
 	wow.addFrame(sf::IntRect(100, 0, 25, 25));
 
-	wow.setFrameSpeed(1.f / 500.f);
+	wow.setFrameSpeed(1.f / 1.f);
 
 	currentAnimation = &wow;
 	setTextureRect(currentAnimation->getCurrentFrame());

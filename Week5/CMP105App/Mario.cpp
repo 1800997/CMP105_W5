@@ -62,7 +62,7 @@ void  Mario::update(float dt)
 	{
 		currentAnimation = &swim;
 		setTextureRect(currentAnimation->getCurrentFrame());
-		move(velocity.x * dt, -velocity.y * dt);
+		move(0, -velocity.y * dt);
 	}
 
 };
